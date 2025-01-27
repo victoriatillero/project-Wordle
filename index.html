@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./js/app.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>WordPie</title>
+</head>
+<body>
+    <header>
+        <h1> WordPie </h1>
+        <button id="instructions-button">How to Play</button>
+    </header>
+    <section id="game-board">
+        <div id="row-one" class= "row">
+            <div id="row-one-box-1" class="box">R1B1</div>
+            <div id="row-one-box-2" class="box">R1B2</div>
+            <div id="row-one-box-3" class="box">R1B3</div>
+            <div id="row-one-box-4" class="box">R1B4</div>
+            <div id="row-one-box-5" class="box">R1B5</div>
+        </div>
+        <div id="row-two" class="row">
+            <div id="row-two-box-1" class="box">r2b1</div>
+            <div id="row-two-box-2" class="box">R2B2</div>
+            <div id="row-two-box-3" class="box">R2B3</div>
+            <div id="row-two-box-4" class="box">R2B4</div>
+            <div id="row-two-box-5" class="box">R2B5</div>
+        </div>
+        <div id="row-three" class="row">
+            <div id="row-three-box-1" class="box">R3B1</div>
+            <div id="row-three-box-2" class="box">R3B2</div>
+            <div id="row-three-box-3" class="box">R3B3</div>
+            <div id="row-three-box-4" class="box">R3B4</div>
+            <div id="row-three-box-5" class="box">R3B5</div>
+        </div>
+        <div id="row-four" class="row">
+            <div id="row-four-box-1" class="box">R4B1</div>
+            <div id="row-four-box-2" class="box">R4B2</div>
+            <div id="row-four-box-3" class="box">R4B3</div>
+            <div id="row-four-box-4" class="box">R4B4</div>
+            <div id="row-four-box-5" class="box">R4B5</div>
+        </div>
+        <div id="row-five" class="row">
+            <div id="row-five-box-1" class="box">5.1</div>
+            <div id="row-five-box-2" class="box">5.2</div>
+            <div id="row-five-box-3" class="box">5.3</div>
+            <div id="row-five-box-4" class="box">5.4</div>
+            <div id="row-five-box-5" class="box">5.5</div>
+        </div>
+        <div id="row-six" class=" row">
+            <div id="row-six-box-1" class="box">6.1</div>
+            <div id="row-six-box-2" class="box">6.2</div>
+            <div id="row-six-box-3" class="box">6.3</div>
+            <div id="row-six-box-4" class="box">6.4</div>
+            <div id="row-six-box-5" class="box">6.5</div>
+        </div>
+    </section>
+    <div id="popup" class="hidden">
+        <div class="pop-up-instructions">
+            <h2>How to Play</h2>
+            <p> Guess the correct word of the day in 6 attempts, get some pie!</p>
+            <p> <i>Use the keyboard arrow buttons to navigate through the individual letters of current turn</i> </p>
+            <ul>
+                <ui> <strong> Green:</strong> Correct letter, correct position</li>
+                    <br>
+                <ui> <strong> Orange:</strong> Correct letter, incorrect position</li>
+                    <br>
+                <ui> <strong> Grey:</strong> Letter is not in word</li>
+            </ul>
+            <button id="close-popup">Let's play!</button>
+        </div>
+    </div>
+
+</body>
+</html>
